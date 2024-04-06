@@ -1,0 +1,156 @@
+<!-- This line tells the browser that this is an HTML document and specifies its version. -->
+<!DOCTYPE html>
+<!-- This line starts the HTML document and specifies the language to English. -->
+<html lang="en">
+
+<!-- This part contains information about the document that isn't shown on the page. -->
+
+<head>
+    <meta charset="UTF-8"> <!-- This line tells the browser which character set (like letters and symbols) to use. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This line makes the webpage fit well on different screen sizes. -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- This line connects the HTML document to a CSS file that styles the page. -->
+
+    <!-- These lines tell the browser to connect to Google's font server. It's like telling the browser to go to Google's font store and get the font style called Roboto. Think of it like going to a shop to buy a specific type of clothing. The <link> tags are like directions to the shop, and the href attribute is the address of the shop. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- You can add fonts here -->
+
+    <title>My Portfolio</title> <!-- This line gives the webpage a title that shows in the browser tab. -->
+</head>
+
+<!-- This part contains all the content that shows up on the webpage. -->
+
+<body>
+    <!-- The <div> element is a container used to group and style content. In this code, <div> elements with specific classes like "layout," "main_content," "home_page," and "navbar" are used to organize different sections of the webpage.  -->
+    <div class="layout">
+        <div class="main_content">
+
+            <!-- Home Page starts here -->
+            <div class="home_page">
+                <div class="home_heading" id="Home">
+                    <!-- Edit here 👇 Change "GDSC IIIT Kalyani" to your own name -->
+                    <div class="intro">Hello, bots<br>I'm <br>Piyush</div>
+                    <!-- Edit here 👇 Add an interesting bio here. Your instagram bio works too  😉 -->
+                    <div class="sub_heading">Lorem, ipsum dolor sit amet consectetur adipisicing elit</div>
+                </div>
+                <div class="profile_pic">
+                    <!-- Edit here 👇 Add your own photo here. Simply download it in the assets folder and update the filename "pfp.png" to match your image's filename -->
+                    <img src="./assets/1710279813144292.jpg">
+                </div>
+            </div>
+
+            <!-- About Page starts here -->
+            <div class="about_page" id="About">
+                <div class="about_heading">About</div>
+                <div class="right_container">
+                    <div class="about_me">
+                        <div class="about_me_contents">
+                            NAME
+                            <!-- Edit here 👇 Add your name instead of "GDSC IIIT Kalyani" -->
+                            <span>Piyush Raj</span>
+                        </div>
+                        <div class="about_me_contents">
+                            BIRTHDAY
+                            <!-- Edit here 👇 Add your birthday -->
+                            <span>2nd October 2004</span>
+                        </div>
+                        <div class="about_me_contents">
+                            EMAIL
+                            <!-- Edit here 👇 Add your email instead of "dsc.iiitkalyani@gmail.com" -->
+                            <span>pr23ms060@iiserkol.ac.in</span>
+                        </div>
+                        <div class="about_me_contents">
+                            PHONE
+                            <!-- Edit here 👇 Add your phone number. We'll not prank call you. -->
+                            <span>(+91)-7763920622</span>
+                        </div>
+                        <div class="about_me_contents">
+                            LOCATION
+                            <!-- Edit here 👇 Add your location -->
+                            <span>Kalyani, West Bengal</span>
+                        </div>
+                        <div class="about_me_contents">
+                            CONNECT WITH ME
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="experiences">
+                            <div class="info">
+                                EDUCATION BACKGROUND
+                                <!-- Edit here 👇 Add your Educational Background -->
+                                <span>BS-MS</span>
+                            </div>
+                            <div class="info">
+                                ACADEMIC ACHIEVEMENTS
+                                <!-- Edit here 👇 Add your Acad Achievements -->
+                                <span>5</span>
+                            </div>
+                            <div class="info">
+                                EXPERIENCE
+                                <!-- Edit here 👇 Add your Experience -->
+                                <span>2</span>
+                            </div>
+                            <div class="info">
+                                PROJECTS
+                                <!-- Edit here 👇 Add your Projects -->
+                                <span>3</span>
+                            </div>
+                        </div>
+                        <!-- Edit here 👇 Write something about yourself. Something that will help people know you better -->
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima consequatur atque maxime
+                            corrupti debitis, quas magnam autem. Mollitia ipsa illo cumque vero, maxime sunt aut autem
+                            voluptate, iste perspiciatis ducimus.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio page starts here -->
+            <div class="portfolio" id="Portfolio">
+                <div class="portfolio_heading">Portfolio</div>
+                <div class="portfolio_container">
+                    <!--Edit here 👇 Add your own photo or video here. Incase of photo change the <Video> tag to <img> and remove autoplay and controls -->
+                    <video src="./assets/IMG_0473.mp4" autoplay controls class="bento__item" style="--columns: span 2; object-fit: cover;">
+                    </video>
+                    <!-- <div class="bento__item" style="--columns: span 2;">
+                        
+                    </div> -->
+                    <!-- Edit here 👇 Add your own photo here. Simply download it in the assets folder and update the filename "pfp.png" to match your image's filename -->
+                    <img src="./assets/" class="bento__item" style="--columns: span 2; object-fit: cover; width: 20rem;">
+                    <!-- Edit here 👇 Add your own photo here. Simply download it in the assets folder and update the filename "pfp.png" to match your image's filename -->
+                    <img src="./assets/team.jpeg" class="bento__item" style="--rows: span 4; --columns: 1 / -1; object-fit: cover;">
+                    
+                    <!-- Edit here 👇 Add your own photo here. Simply download it in the assets folder and update the filename "pfp.png" to match your image's filename -->
+                    <img src="./assets/rebase.png" class="bento__item" style="object-fit: cover">
+                    <!-- Edit here 👇 Add your own photo here. Simply download it in the assets folder and update the filename "pfp.png" to match your image's filename -->
+                    <img src="./assets/git.png" class="bento__item" style="--columns: span 2; object-fit: cover; height: 14rem;">
+                    <!-- Edit here 👇 Add your own photo here. Simply download it in the assets folder and update the filename "pfp.png" to match your image's filename -->
+                    <img class="bento__item" src="./assets/rebase2.png">
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar starts here -->
+        <div class="navbar">
+            <div class="logo">
+                <img src="./assets/logo.png">
+            </div>
+            <ul class="navbar_list">
+                <li class="navbar_content"><a href="#Home">HOME</a></li>
+                <li class="navbar_content"><a href="#About">ABOUT</a></li>
+                <li class="navbar_content"><a href="#Portfolio">PORTFOLIO</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+<!-- This is where the content of the webpage ends. -->
+
+</html>
+<!-- This marks the end of the HTML document. -->
